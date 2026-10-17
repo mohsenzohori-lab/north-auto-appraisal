@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://northautoappraisal.ca/</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-toronto.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-etobicoke.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-mississauga.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-brampton.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-vaughan.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-markham.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-richmond-hill.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-scarborough.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-north-york.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-oakville.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-burlington.html</loc></url>
-<url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-hamilton.html</loc></url>
+  <url><loc>https://northautoappraisal.ca/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-toronto.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-etobicoke.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-mississauga.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-brampton.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-vaughan.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-markham.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-richmond-hill.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-scarborough.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-north-york.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-oakville.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-burlington.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northautoappraisal.ca/vehicle-appraisal-in-hamilton.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
