@@ -229,14 +229,16 @@ footer a:hover{color:var(--blue)}
 <div class="wrap" id="request">
   <h2>Step 1: Complete the Appraisal Request Form</h2>
   <p class="lede">Send us your details and we'll confirm your appraisal — usually within business hours the same day.</p>
+  <div id="thanks" style="display:none;background:#dcfce7;border:2px solid #16a34a;color:#14532d;border-radius:14px;padding:16px 20px;margin:0 0 18px;font-size:16.5px;line-height:1.45">✅ <b>Thank you — your appraisal request has been received!</b><br>We'll call you shortly to confirm. Need us sooner? Call <a href="tel:+16477050346" style="color:#14532d;font-weight:800">647-705-0346</a>.</div>
   <form action="https://formsubmit.co/info@northautosale.ca" method="POST">
     <input type="hidden" name="_subject" value="New appraisal request — northautoappraisal.ca">
-    <input type="hidden" name="_next" value="https://northautoappraisal.ca/#thanks">
-    <input type="hidden" name="_template" value="table"><input type="hidden" name="City / Area" value="Brampton">
+    <input type="hidden" name="_next" value="https://northautoappraisal.ca/vehicle-appraisal-in-brampton.html#thanks">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_autoresponse" value="Thank you — North Auto Appraisal has received your appraisal request. We'll call you shortly to confirm. If you need us right away, call 647-705-0346. — 145 Belfield Rd Unit #1, Etobicoke"><input type="hidden" name="City / Area" value="Brampton">
     <div class="fgrid">
       <div><label for="f-name">Your Full Legal Name *</label><input id="f-name" name="Full Name" required></div>
       <div><label for="f-phone">Telephone # (Mobile) *</label><input id="f-phone" name="Phone" type="tel" required></div>
-      <div class="full"><label for="f-email">Email Address *</label><input id="f-email" name="Email" type="email" required></div>
+      <div class="full"><label for="f-email">Email Address *</label><input id="f-email" name="email" type="email" required></div>
       <div><label for="f-purpose">Purpose of Appraisal *</label>
         <select id="f-purpose" name="Purpose" required>
           <option value="">Select…</option>
@@ -267,7 +269,7 @@ footer a:hover{color:var(--blue)}
       <div class="full"><label for="f-comments">Comment or Request</label><textarea id="f-comments" name="Comments"></textarea></div>
     </div>
     <div style="text-align:center;margin-top:20px"><button class="btn btn-black" type="submit" style="border:none;cursor:pointer">SUBMIT REQUEST</button></div>
-    <p class="fnote" id="thanks">Prefer to talk? Call <a href="tel:+16477050346">(647) 705-0346</a> — Mon–Fri 10–7, Sat 11–6.</p>
+    <p class="fnote">Prefer to talk? Call <a href="tel:+16477050346">(647) 705-0346</a> — Mon–Fri 10–7, Sat 11–6.</p>
   </form>
 </div>
 
@@ -335,6 +337,7 @@ footer a:hover{color:var(--blue)}
 </footer>
 <style>.naa-chat{position:fixed;left:16px;bottom:16px;z-index:9999;display:inline-flex;align-items:center;gap:8px;background:#15803d;color:#fff;font-family:Arial,Helvetica,sans-serif;font-weight:800;font-size:15.5px;padding:13px 20px;border-radius:999px;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,.35)}.naa-chat:hover{background:#14532d}</style>
 <a class="naa-chat" href="sms:+16477050346?&amp;body=Hi%2C%20I%27d%20like%20a%20vehicle%20appraisal.">💬 Chat With Us</a>
+<script>if(window.location.hash==='#thanks'){var b=document.getElementById('thanks');if(b){b.style.display='block';setTimeout(function(){b.scrollIntoView({behavior:'smooth',block:'center'})},200);}}</script>
 <script>
 function loadB64(el){
   fetch(el.getAttribute('data-b64')).then(function(r){return r.text()}).then(function(t){
